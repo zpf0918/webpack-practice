@@ -1,5 +1,10 @@
-const top = 'top'
+const top = document.createElement('div')
+top.innerText = 'top of footer'
+const bottom = document.createElement('div')
+bottom.innerText = 'bottom of footer'
 
-const bottom = 'bottom'
+const footer = document.createElement('footer')
+footer.appendChild(top)
+footer.appendChild(bottom)
 
-export { top, bottom }
+export { top, bottom, footer }
