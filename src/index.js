@@ -1,4 +1,5 @@
 import './footer.css'
+import './button.css'
 import { top, bottom, footer } from './footer'
 import nav from './nav'
 import makeButton from './button'
