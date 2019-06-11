@@ -8,7 +8,7 @@
     "webpack": "webpack",
     "dev": "npm run webpack-dev-server -- --env.mode development --hot",
     "prod": "npm run webpack -- --env.mode production",
-    "prod:typescript": "npm run prod -- --env.presets typescript",
+    "prod:analyze": "npm run prod -- --env.presets analyze",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jonathan",
