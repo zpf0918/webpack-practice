@@ -6,6 +6,7 @@ import makeButton from './button'
 import { red, blue } from './button-styles'
 import imgUrl from './webpack.logo.jpeg'
 import makeImage from './image'
+import Foo from './foo.ts'
 
 const button = makeButton('Yay! My button')
 const image = makeImage(imgUrl)
